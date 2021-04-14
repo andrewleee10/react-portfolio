@@ -1,0 +1,13 @@
+/* Main div containing portfolio cards */
+
+.crd_div {
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+/* Main row containing the cards */
+
+.one {
+  margin-bottom: 30px;
+  text-align: center;
+}

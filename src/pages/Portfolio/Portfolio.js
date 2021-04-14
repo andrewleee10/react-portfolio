@@ -1,6 +1,19 @@
+import Card from '../../components/Card'
+import {
+  Container,
+  Row,
+  Col
+} from 'reactstrap'
+
 const Portfolio = () => {
   return (
-    <h1>This is the portfolio page</h1>
+    <Container>
+      <Row>
+        <Col xs="12">
+          <Card />
+        </Col>
+      </Row>
+    </Container>
   )
 }
 

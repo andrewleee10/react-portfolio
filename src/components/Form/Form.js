@@ -4,8 +4,7 @@ import {
   Form as Frm, 
   FormGroup, 
   Label, 
-  Input, 
-  FormText 
+  Input
 } from 'reactstrap';
 
 const Form = (props) => {
@@ -13,7 +12,8 @@ const Form = (props) => {
   
 
   return (
-      <Frm>
+      <Frm className="contact_form">
+        <h3>Contact Me!</h3>
         <FormGroup>
           <Label htmlFor="name">Name</Label>
           <Input type="text" name="name" placeholder="John Doe" />

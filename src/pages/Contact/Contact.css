@@ -1,0 +1,9 @@
+.contact_form {
+  display: block;
+  width: 75%;
+  border: black solid 2px;
+  margin-top: 30px;
+  margin: auto;
+  align-content: center;
+  padding: 10px;
+}
