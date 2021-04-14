@@ -1,4 +1,7 @@
 import './Home.css'
+import img from './images/me.jpg'
+import img1 from './images/me1.jpeg'
+
 
 const Home = () => {
   return (
@@ -6,7 +9,7 @@ const Home = () => {
       <div className="container">
         <div className="row one">
           <div className="col-sm-6">
-            <img src="../../components/images/me.jpg" alt="me"></img>    
+          <img src={img} alt="me"></img>
           </div>
           <div className="col-sm-6">
             <p className="center1">
@@ -17,7 +20,7 @@ const Home = () => {
         </div>
         <div className="row one">
           <div className="col-sm-6">
-            <img src="../../components/images/me1.jpeg" alt="me2"></img>
+            <img src={img1} alt="me2"></img>
           </div>
           <div className="col-sm-6">
             <p className="center1">
