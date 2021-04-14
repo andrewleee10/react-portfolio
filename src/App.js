@@ -16,7 +16,7 @@ const App = () => {
           <Navbar />
         </div>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/react-portfolio'>
               <Home />
             </Route>
             <Route path='/portfolio'>
