@@ -4,8 +4,8 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
-import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact/index.js'
+import Portfolio from './pages/Portfolio/index.js'
 import Navbar from './components/Navbar'
 
 const App = () => {
