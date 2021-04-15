@@ -19,10 +19,10 @@ const App = () => {
             <Route exact path='/react-portfolio/'>
               <Home />
             </Route>
-            <Route exact path='/react-portfolio/portfolio/'>
+            <Route path='/portfolio/'>
               <Portfolio />
             </Route>
-            <Route exact path='/react-portfolio/contact/'>
+            <Route path='/contact/'>
               <Contact />
             </Route>
           </Switch>
