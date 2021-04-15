@@ -7,13 +7,15 @@ import {
 
 const Portfolio = () => {
   return (
-    <Container>
-      <Row>
-        <Col xs="12">
-          <Card />
-        </Col>
-      </Row>
-    </Container>
+    <>
+      <Container>
+        <Row>
+          <Col xs="12">
+            <Card />
+          </Col>
+        </Row>
+      </Container>
+    </>
   )
 }
 
