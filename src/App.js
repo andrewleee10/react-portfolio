@@ -12,9 +12,7 @@ const App = () => {
   return (
     <Router>
       <div>
-        <div>
           <Navbar />
-        </div>
           <Switch>
             <Route exact path='/react-portfolio/'>
               <Home />
