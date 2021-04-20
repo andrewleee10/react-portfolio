@@ -10,7 +10,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-const Navbar = (props) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -26,10 +26,10 @@ const Navbar = (props) => {
               <NavLink href="/react-portfolio/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/react-portfolio/portfolio/">Portfolio</NavLink>
+              <NavLink href="/react-portfolio/portfolio">Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/react-portfolio/contact/">Contact</NavLink>
+              <NavLink href="/react-portfolio/contact">Contact</NavLink>
             </NavItem>
           </Nav>
           <NavbarText>

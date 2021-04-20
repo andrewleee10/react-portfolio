@@ -7,7 +7,6 @@ import {
 
 const Portfolio = () => {
   return (
-    <>
       <Container>
         <Row>
           <Col xs="12">
@@ -15,7 +14,6 @@ const Portfolio = () => {
           </Col>
         </Row>
       </Container>
-    </>
   )
 }
 

@@ -3,9 +3,9 @@ import {
   Card as Crd, CardText, CardBody, CardLink,
   CardTitle, CardGroup, CardImg
 } from 'reactstrap';
-import img from '../images/logo_3.png'
-import img1 from '../images/weekndrLogo.png'
-import img2 from '../images/birdbook.png'
+import img from './images/logo_3.png'
+import img1 from './images/weekndrLogo.png'
+import img2 from './images/birdbook.png'
 import './Card.css'
 
 const Card = (props) => {
